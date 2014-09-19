@@ -1,0 +1,5 @@
+#include"Effet.h"
+
+
+
+Effet::
