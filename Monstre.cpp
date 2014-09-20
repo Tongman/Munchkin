@@ -1,16 +1,14 @@
 #include "Monstre.h"
 
-Monstre::Monstre(Effet * e, int niv, int nbT){
+Monstre::Monstre(Effet * e, int niv, int nbT):Personnage(niv){
 	incident=e;
-	niveau=niv;
 	tresors=nbT;
 	nbNiv=1;
 	
 }
 
-Monstre::Monstre(Effet * e, int niv, int nbT, int nbN){
+Monstre::Monstre(Effet * e, int niv, int nbT, int nbN):Personnage(niv){
 	incident=e;
-	niveau=niv;
 	tresors=nbT;
 	nbNiv=nbN;	
 }

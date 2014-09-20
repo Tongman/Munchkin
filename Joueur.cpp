@@ -1,7 +1,10 @@
 #include"Joueur.h"
 
-Joueur::Joueur(){
-	niveau=1;
+Joueur::Joueur():Personnage(1){
+	main=new vector<Carte>();
+	equipe= new vector<Equipement>();
+	bagage = new vector<Equipement>();
+
 }
 
 Joueur::~Joueur(){
@@ -10,4 +13,9 @@ Joueur::~Joueur(){
 
 int Joueur::getNiveau(){
 	return niveau;
+}
+
+void Joueur::pioche(){
+	
+	
 }

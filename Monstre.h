@@ -10,6 +10,7 @@ class Monstre:public Personnage{
 		Monstre(Effet * e, int niv, int nbT, int nbN);
 		~Monstre();
 		
+		
 	private:
 		Effet * incident;
 		int tresors;

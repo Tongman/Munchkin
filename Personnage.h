@@ -7,9 +7,12 @@
 class Personnage{
 	protected:
 		int niveau;
+		int force;
 	public:
-		Personnage();
+		Personnage(int niv);
 		~Personnage();
+		int getNiveau();
+		
 	
 	
 };
